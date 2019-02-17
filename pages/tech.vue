@@ -5,7 +5,7 @@
         <div class="text-xs-center">
           <img src="/Johannes-Berggren.jpg" alt="Johannes Berggren portrait" class="mb-5 portrait"/>
         </div>
-        <!--<h1>Johannes Berggren</h1>-->
+        <h1>Johannes Berggren</h1>
       </v-flex>
     </v-layout>
     <v-layout>

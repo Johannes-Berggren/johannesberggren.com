@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const _bc9daf0e = () => import('../pages/tech.vue' /* webpackChunkName: "pages/tech" */).then(m => m.default || m)
-const _1f20ba8c = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
-const _d4e29ee6 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
-const _578a6152 = () => import('../pages/music.vue' /* webpackChunkName: "pages/music" */).then(m => m.default || m)
-const _10277d7f = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _24054506 = () => import('../pages/tech.vue' /* webpackChunkName: "pages/tech" */).then(m => m.default || m)
+const _8ec1d066 = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _0fb52ce0 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
+const _1fb9d665 = () => import('../pages/music.vue' /* webpackChunkName: "pages/music" */).then(m => m.default || m)
+const _4f521adc = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 Vue.use(Router)
 
@@ -68,27 +68,27 @@ export function createRouter () {
     routes: [
 		{
 			path: "/tech",
-			component: _bc9daf0e,
+			component: _24054506,
 			name: "tech"
 		},
 		{
 			path: "/about",
-			component: _1f20ba8c,
+			component: _8ec1d066,
 			name: "about"
 		},
 		{
 			path: "/contact",
-			component: _d4e29ee6,
+			component: _0fb52ce0,
 			name: "contact"
 		},
 		{
 			path: "/music",
-			component: _578a6152,
+			component: _1fb9d665,
 			name: "music"
 		},
 		{
 			path: "/",
-			component: _10277d7f,
+			component: _4f521adc,
 			name: "index"
 		}
     ],

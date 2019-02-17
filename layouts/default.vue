@@ -1,37 +1,5 @@
 <template>
   <v-app>
-    <v-toolbar color="cyan" dark tabs>
-      <v-spacer></v-spacer>
-
-      <v-toolbar-title>Johannes Berggren</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-tabs slot="extension" v-model="tab" color="cyan" grow>
-        <v-tabs-slider color="orange"></v-tabs-slider>
-
-        <v-tab>
-          Music
-        </v-tab>
-
-        <v-tab>
-          Tech
-        </v-tab>
-
-        <v-tab>
-          Latest
-        </v-tab>
-
-        <v-tab>
-          About
-        </v-tab>
-
-        <v-tab>
-          Contact
-        </v-tab>
-      </v-tabs>
-    </v-toolbar>
-
     <v-content>
       <v-container>
         <nuxt/>
@@ -40,26 +8,16 @@
   </v-app>
 </template>
 
-<script>
-  export default {
-    data () {
-      return {
-        tab: 2,
-        items: [
-          'music', 'tech', '/', 'about', 'contact'
-        ]
-      }
-    },
-    watch: {
-      tab (val) {
-        this.$router.push(this.items[val])
-      }
-    }
-  }
-</script>
-
 <style>
   .theme--light.application {
-    background: #fff;
+    background: #01091b;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #8e95a7;
+  }
+
+  p {
+    color: #99b4de;
   }
 </style>

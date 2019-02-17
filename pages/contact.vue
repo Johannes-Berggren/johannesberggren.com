@@ -3,7 +3,7 @@
     <v-layout column justify-center align-center>
       <v-flex xs12 sm8 md6>
         <div class="text-xs-center">
-          <p>I help companies spend </p>
+          <p></p>
         </div>
       </v-flex>
     </v-layout>
