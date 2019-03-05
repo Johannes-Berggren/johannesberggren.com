@@ -9,15 +9,12 @@
 </template>
 
 <style>
-  .theme--light.application {
-    background: #01091b;
-  }
-
   h1, h2, h3, h4, h5, h6 {
-    color: #8e95a7;
+    color: #494e57;
+    margin-bottom: 5px;
   }
 
   p {
-    color: #99b4de;
+    color: #596a85;
   }
 </style>
