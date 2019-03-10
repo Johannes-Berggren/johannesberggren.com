@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-layout column justify-center align-center mb-5>
+    <v-layout column justify-center align-center my-3>
       <v-flex xs12 sm8 md6>
         <div class="text-xs-center">
           <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
@@ -9,28 +9,8 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center my-5>
-      <v-flex xs12 my-2>
-        <h2>Find me at</h2>
-        <v-divider />
-      </v-flex>
-      <v-flex xs3 sm3>
-        <a href="https://www.goodreads.com/user/show/53628610-johannes-berggren">Goodreads</a>
-      </v-flex>
-      <v-flex xs3 sm3>
-        <a href="https://soundcloud.com/johannes-berggren">Soundcloud</a>
-      </v-flex>
-      <v-flex xs3 sm3>
-        <a href="https://www.linkedin.com/in/johannesberggren/">LinkedIn</a>
-      </v-flex>
-      <v-flex xs3 sm3>
-        <a href="https://github.com/Johannes-Berggren">GitHub</a>
-      </v-flex>
-    </v-layout>
-
-    <v-layout wrap justify-center align-center my-5>
-      <v-flex xs12 my-2>
-        <h2>What I'm up to</h2>
+    <v-layout wrap justify-center align-center my-5 mb-5>
+      <v-flex xs12 mb-3>
         <v-divider />
       </v-flex>
       <v-flex xs6 sm3>
@@ -38,16 +18,94 @@
         <p>CTO, Co-founder</p>
       </v-flex>
       <v-flex xs6 sm3>
+        <h3>KOK Ventures</h3>
+        <p>Founding partner</p>
+      </v-flex>
+      <v-flex xs6 sm3>
         <h3>ChartCo</h3>
         <p>IT Operations Engineer</p>
       </v-flex>
-      <v-flex xs6 sm3>
-        <h3>KOK</h3>
-        <p>DJ, Co-founder</p>
+      <!--<v-flex xs6 sm3>-->
+      <!--<h3>KOK</h3>-->
+      <!--<p>DJ, Co-founder</p>-->
+      <!--</v-flex>-->
+      <v-flex xs12 my-1>
+        <v-divider />
       </v-flex>
-      <v-flex xs6 sm3>
-        <h3>KOK Ventures</h3>
-        <p>Founding partner</p>
+    </v-layout>
+
+    <v-layout column justify-center align-center my-3>
+      <p>
+        <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
+           technical expertise, and is currently one of Norways top full stack software engineers."
+        </i>
+      </p>
+      <p>
+        <i>"Having started his first company at age 12, Johannes has years of first hand business development
+           experience.
+           Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in
+           Northern Europe."
+        </i>
+      </p>
+    </v-layout>
+
+    <v-layout column justify-center align-center my-2 mb-5>
+      <h3>Ask Johannes:</h3>
+      <h2>johannes@berggren.co</h2>
+    </v-layout>
+
+    <v-layout wrap justify-center align-center my-5 follow>
+      <v-flex xs12 my-2>
+        <h2>Find me at</h2>
+        <v-divider />
+      </v-flex>
+      <v-flex xs4 sm4 first>
+        <a href="https://www.linkedin.com/in/johannesberggren/">LinkedIn</a>
+      </v-flex>
+      <v-flex xs4 sm4 first>
+        <a href="https://github.com/Johannes-Berggren">GitHub</a>
+      </v-flex>
+      <v-flex xs4 sm4 first>
+        <a href="https://soundcloud.com/johannes-berggren">Soundcloud</a>
+      </v-flex>
+      <v-flex xs3 sm3 mt-3 mb-3 second>
+        <a href="https://www.goodreads.com/user/show/53628610-johannes-berggren">Goodreads</a>
+      </v-flex>
+      <v-flex xs3 sm3 mt-3 mb-3 second>
+        <a href="https://www.crunchbase.com/person/johannes-berggren">Crunchbase</a>
+      </v-flex>
+      <v-flex xs3 sm3 mt-3 mb-3 second>
+        <a href="https://www.shareville.no/medlemmer/j-b/wall">Shareville</a>
+      </v-flex>
+      <v-flex xs3 sm3 mt-3 mb-3 second>
+        <a href="https://learnlink.no/profil/bPVgZ3f1pjhrN7esErZ4Q4gX5wy1/">Learnlink</a>
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center align-center my-5 follow>
+      <v-flex xs12 my-2>
+        <h2>Investments</h2>
+        <v-divider />
+      </v-flex>
+      <v-flex xs4 sm4 mt-3 mb-3>
+        <a href="https://sharebox.no">
+          <img src="/sharebox_logo.png" />
+        </a>
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center align-center my-5 follow>
+      <v-flex xs12 my-2>
+        <h2>Other projects</h2>
+        <v-divider />
+      </v-flex>
+      <v-flex xs4 sm4 first>
+        <a href="https://www.npmjs.com/package/firestore-to-bigquery-export" style="margin-bottom: 5px">
+          Firestore to BigQuery Export
+        </a>
+      </v-flex>
+      <v-flex xs4 sm4 first>
+        <a href="http://marketflow-d6822.firebaseapp.com">MarketFlow</a>
       </v-flex>
     </v-layout>
 
@@ -78,7 +136,8 @@
         <h4>In Spanish</h4>
         <p>TicBeat:
           <a href="http://www.ticbeat.com/entrevistas/johannes-berggren-learnlink-queremos-acercar-las-tutorias-online-a-personas-con-dislexia-y-profesionales-tic/">
-            Johannes Berggren (LearnLink): “Queremos acercar las tutorías online a personas con dislexia y profesionales TIC”
+            Johannes Berggren (LearnLink): “Queremos acercar las tutorías online a personas con dislexia y profesionales
+            TIC”
           </a>
         </p>
       </v-flex>
@@ -136,5 +195,18 @@
     border-radius: 100%;
     width: 150px;
     height: 150px;
+  }
+
+  a {
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+
+  .first a {
+    font-size: 18px;
+  }
+
+  .second a {
+    font-size: 16px;
   }
 </style>
