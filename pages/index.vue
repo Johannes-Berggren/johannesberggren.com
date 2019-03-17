@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-layout column justify-center align-center my-3>
+    <v-layout column justify-center my-3>
       <v-flex xs12 sm8 md6>
         <div class="text-xs-center">
           <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
@@ -9,54 +9,54 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center my-5 mb-5>
-      <v-flex xs12 mb-3>
-        <v-divider />
-      </v-flex>
-      <v-flex xs6 sm3>
-        <h3>Learnlink</h3>
-        <p>CTO, Co-founder</p>
-      </v-flex>
-      <v-flex xs6 sm3>
-        <h3>KOK Ventures</h3>
-        <p>Founding partner</p>
-      </v-flex>
-      <v-flex xs6 sm3>
-        <h3>ChartCo</h3>
-        <p>IT Operations Engineer</p>
-      </v-flex>
-      <!--<v-flex xs6 sm3>-->
-      <!--<h3>KOK</h3>-->
-      <!--<p>DJ, Co-founder</p>-->
-      <!--</v-flex>-->
-      <v-flex xs12 my-1>
-        <v-divider />
-      </v-flex>
+    <!--<v-layout wrap justify-center my-5 mb-5>-->
+    <!--<v-flex xs12 mb-3>-->
+    <!--<v-divider />-->
+    <!--</v-flex>-->
+    <!--<v-flex xs6 sm3>-->
+    <!--<h3>Learnlink</h3>-->
+    <!--<p>CTO, Co-founder</p>-->
+    <!--</v-flex>-->
+    <!--<v-flex xs6 sm3>-->
+    <!--<h3>KOK Ventures</h3>-->
+    <!--<p>Founding partner</p>-->
+    <!--</v-flex>-->
+    <!--<v-flex xs6 sm3>-->
+    <!--<h3>ChartCo</h3>-->
+    <!--<p>IT Operations Engineer</p>-->
+    <!--</v-flex>-->
+    <!--<v-flex xs6 sm3>-->
+    <!--<h3>KOK</h3>-->
+    <!--<p>DJ, Co-founder</p>-->
+    <!--</v-flex>-->
+    <!--<v-flex xs12 my-1>-->
+    <!--<v-divider />-->
+    <!--</v-flex>-->
+    <!--</v-layout>-->
+
+    <!--<v-layout column justify-center my-3>-->
+    <!--<p>-->
+    <!--<i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep-->
+    <!--technical expertise, and is currently one of Norways top full stack software engineers."-->
+    <!--</i>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<i>"Having started his first company at age 12, Johannes has years of first hand business development-->
+    <!--experience.-->
+    <!--Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in-->
+    <!--Northern Europe."-->
+    <!--</i>-->
+    <!--</p>-->
+    <!--</v-layout>-->
+
+    <v-layout column justify-center my-2 mb-5>
+      <!--<h3>Ask Johannes:</h3>-->
+      <h4>johannes@berggren.co</h4>
     </v-layout>
 
-    <v-layout column justify-center align-center my-3>
-      <p>
-        <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
-           technical expertise, and is currently one of Norways top full stack software engineers."
-        </i>
-      </p>
-      <p>
-        <i>"Having started his first company at age 12, Johannes has years of first hand business development
-           experience.
-           Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in
-           Northern Europe."
-        </i>
-      </p>
-    </v-layout>
-
-    <v-layout column justify-center align-center my-2 mb-5>
-      <h3>Ask Johannes:</h3>
-      <h2>johannes@berggren.co</h2>
-    </v-layout>
-
-    <v-layout wrap justify-center align-center my-5 follow>
+    <v-layout wrap justify-center my-5 follow>
       <v-flex xs12 my-2>
-        <h2>Find me at</h2>
+        <h2>Connect with me</h2>
         <v-divider />
       </v-flex>
       <v-flex xs4 sm4 first>
@@ -82,34 +82,36 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center my-5 follow>
+    <v-layout wrap justify-center my-5 follow>
       <v-flex xs12 my-2>
         <h2>Investments</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs4 sm4 mt-3 mb-3>
+      <v-flex xs6 mt-3 mb-3>
         <a href="https://sharebox.no">
           <img src="/sharebox_logo.png" />
         </a>
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center my-5 follow>
+    <v-layout wrap justify-center my-5 follow>
       <v-flex xs12 my-2>
-        <h2>Other projects</h2>
+        <h2>Open source projects</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs4 sm4 first>
+      <v-flex xs6 first>
         <a href="https://www.npmjs.com/package/firestore-to-bigquery-export" style="margin-bottom: 5px">
           Firestore to BigQuery Export
         </a>
+        <p>An automatic tool for copying and converting Cloud Firestore data to BigQuery.</p>
       </v-flex>
-      <v-flex xs4 sm4 first>
+      <v-flex xs6 first>
         <a href="http://marketflow-d6822.firebaseapp.com">MarketFlow</a>
+        <p>Lets you see the stock market sentiment and volatility for any period of time.</p>
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center my-5>
+    <v-layout wrap justify-center my-5>
       <v-flex xs12 my-2>
         <h2>What people are writing</h2>
         <v-divider />
@@ -143,7 +145,7 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center align-center>
+    <v-layout wrap justify-center>
       <v-flex xs12 my-2>
         <h2>I'm also DJing</h2>
         <v-divider />
@@ -181,6 +183,34 @@
                 frameborder="no"
                 allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center>
+      <v-flex xs12 my-2>
+        <h2>Favorites</h2>
+        <v-divider />
+      </v-flex>
+      <v-divider />
+      <v-flex xs6 mb-5 px-3>
+        <h3>Books</h3>
+        <p>Influence: The Phychology of Persuasion</p>
+        <p>Zero to One: Notes on Startups, or How to Build the Future</p>
+        <p>Surely You're Joking, Mr. Feynman!</p>
+        <p>Angel: How to Invest in Technology Startups</p>
+        <p>The Hard Thing About Hard Things</p>
+        <p>Sapiens: A Brief History of Humankind</p>
+        <p>The Innovator's Dilemma</p>
+        <p>Thinking, Fast and Slow</p>
+      </v-flex>
+      <v-flex xs6 mb-5 px-3>
+        <h3>Podcasts</h3>
+        <p>This Week in Startups</p>
+        <p>Maching Learning Guide</p>
+        <p>The Kevin Rose Show</p>
+        <p>Pivot</p>
+        <p>Recode Decode</p>
+        <p>The Tim Ferriss Show</p>
       </v-flex>
     </v-layout>
   </div>
