@@ -106,7 +106,7 @@
         <p>An automatic tool for copying and converting Cloud Firestore data to BigQuery.</p>
       </v-flex>
       <v-flex xs6 first>
-        <a href="http://marketflow-d6822.firebaseapp.com">MarketFlow</a>
+        <a href="https://marketflow.johannesberggren.com">MarketFlow</a>
         <p>Lets you see the stock market sentiment and volatility for any period of time.</p>
       </v-flex>
     </v-layout>
