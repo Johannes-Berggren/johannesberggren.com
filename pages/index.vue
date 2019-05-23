@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-layout column justify-center my-3>
+    <v-layout column justify-center mt-3>
       <v-flex xs12 sm8 md6>
         <div class="text-xs-center">
           <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
@@ -9,21 +9,13 @@
       </v-flex>
     </v-layout>
 
-<!--    <v-layout wrap justify-center my-5 mb-5>-->
+<!--    <v-layout wrap justify-center mt-4 mb-5>-->
 <!--      <v-flex xs12 mb-3>-->
 <!--        <v-divider />-->
 <!--      </v-flex>-->
 <!--      <v-flex xs6 sm3>-->
 <!--        <h3>Learnlink</h3>-->
 <!--        <p>CTO, Co-founder</p>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs6 sm3>-->
-<!--        <h3>KOK Ventures</h3>-->
-<!--        <p>Founding partner</p>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs6 sm3>-->
-<!--        <h3>ChartCo</h3>-->
-<!--        <p>IT Operations Engineer</p>-->
 <!--      </v-flex>-->
 <!--      <v-flex xs6 sm3>-->
 <!--        <h3>KOK</h3>-->
@@ -34,23 +26,28 @@
 <!--      </v-flex>-->
 <!--    </v-layout>-->
 
-    <v-layout column justify-center my-3>
-      <p>
-        <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
-           technical expertise, and is currently one of Norways top full stack software engineers."
-        </i>
-      </p>
-      <p>
-        <i>"Having started his first company at age 12, Johannes has years of first hand business development
-           experience.
-           Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in
-           Northern Europe."
-        </i>
-      </p>
+    <v-layout justify-center my-3>
+      <v-flex xs12 sm6>
+        <p>
+          <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
+             technical expertise, and is currently one of Norways top full stack software engineers."
+          </i>
+        </p>
+        <p>
+          <i>"Having started his first company at age 12, Johannes has years of first hand business development
+             experience.
+             Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in
+             Northern Europe."
+          </i>
+        </p>
+      </v-flex>
+<!--      <v-flex xs6>-->
+<!--        <h3>I help companies </h3>-->
+<!--      </v-flex>-->
     </v-layout>
 
     <v-layout column justify-center my-2 mb-5>
-      <h3>Ask Johannes:</h3>
+      <h3>Contact Johannes:</h3>
       <h4>johannes@berggren.co</h4>
     </v-layout>
 
@@ -145,46 +142,57 @@
       </v-flex>
     </v-layout>
 
-<!--    <v-layout wrap justify-center>-->
-<!--      <v-flex xs12 my-2>-->
-<!--        <h2>I'm also DJing</h2>-->
-<!--        <v-divider />-->
-<!--      </v-flex>-->
-<!--      <v-divider />-->
-<!--      <v-flex xs12 sm12 md6 mb-5 px-3>-->
-<!--        <h4>March 2019</h4>-->
-<!--        <h3>Progressive Mix</h3>-->
-<!--        <iframe-->
-<!--                width="100%"-->
-<!--                height="300"-->
-<!--                scrolling="no"-->
-<!--                frameborder="no"-->
-<!--                allow="autoplay"-->
-<!--                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs12 sm12 md6 mb-5 px-3>-->
-<!--        <h4>January 2019</h4>-->
-<!--        <h3>Progressive Mix</h3>-->
-<!--        <iframe-->
-<!--                width="100%"-->
-<!--                height="300"-->
-<!--                scrolling="no"-->
-<!--                frameborder="no"-->
-<!--                allow="autoplay"-->
-<!--                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565553181&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs12 sm12 md6 mb-5 px-3>-->
-<!--        <h4>December 2018</h4>-->
-<!--        <h3>Progressive Mix</h3>-->
-<!--        <iframe-->
-<!--                width="100%"-->
-<!--                height="300"-->
-<!--                scrolling="no"-->
-<!--                frameborder="no"-->
-<!--                allow="autoplay"-->
-<!--                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>-->
-<!--      </v-flex>-->
-<!--    </v-layout>-->
+    <v-layout wrap justify-center>
+      <v-flex xs12 my-2>
+        <h2>I'm also DJing</h2>
+        <v-divider />
+      </v-flex>
+      <v-divider />
+      <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>May 2019</h4>
+        <h3>Johannes Berggren @ KOK (Oslo, 2019/05/04)</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/621557532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+      <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>March 2019</h4>
+        <h3>Progressive Mix</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+      <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>January 2019</h4>
+        <h3>Progressive Mix</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565553181&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+      <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>December 2018</h4>
+        <h3>Progressive Mix</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+    </v-layout>
 
     <v-layout wrap justify-center>
       <v-flex xs12 my-2>
