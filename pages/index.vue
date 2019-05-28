@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-container>
     <v-layout column justify-center mt-3>
       <v-flex xs12 sm8 md6>
         <div class="text-xs-center">
@@ -9,25 +9,25 @@
       </v-flex>
     </v-layout>
 
-<!--    <v-layout wrap justify-center mt-4 mb-5>-->
-<!--      <v-flex xs12 mb-3>-->
-<!--        <v-divider />-->
-<!--      </v-flex>-->
-<!--      <v-flex xs6 sm3>-->
-<!--        <h3>Learnlink</h3>-->
-<!--        <p>CTO, Co-founder</p>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs6 sm3>-->
-<!--        <h3>KOK</h3>-->
-<!--        <p>DJ, Co-founder</p>-->
-<!--      </v-flex>-->
-<!--      <v-flex xs12 my-1>-->
-<!--        <v-divider />-->
-<!--      </v-flex>-->
-<!--    </v-layout>-->
+    <!--    <v-layout wrap justify-center mt-4 mb-5>-->
+    <!--      <v-flex xs12 mb-3>-->
+    <!--        <v-divider />-->
+    <!--      </v-flex>-->
+    <!--      <v-flex xs6 sm3>-->
+    <!--        <h3>Learnlink</h3>-->
+    <!--        <p>CTO, Co-founder</p>-->
+    <!--      </v-flex>-->
+    <!--      <v-flex xs6 sm3>-->
+    <!--        <h3>KOK</h3>-->
+    <!--        <p>DJ, Co-founder</p>-->
+    <!--      </v-flex>-->
+    <!--      <v-flex xs12 my-1>-->
+    <!--        <v-divider />-->
+    <!--      </v-flex>-->
+    <!--    </v-layout>-->
 
     <v-layout justify-center my-3>
-      <v-flex xs12 sm6>
+      <v-flex xs12 sm8>
         <p>
           <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
              technical expertise, and is currently one of Norways top full stack software engineers."
@@ -41,9 +41,9 @@
           </i>
         </p>
       </v-flex>
-<!--      <v-flex xs6>-->
-<!--        <h3>I help companies </h3>-->
-<!--      </v-flex>-->
+      <!--      <v-flex xs6>-->
+      <!--        <h3>I help companies </h3>-->
+      <!--      </v-flex>-->
     </v-layout>
 
     <v-layout column justify-center my-2 mb-5>
@@ -84,9 +84,19 @@
         <h2>Investments</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs6 mt-3 mb-3>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
         <a href="https://sharebox.no">
           <img src="/sharebox_logo.png" />
+        </a>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <a href="https://accountflow.no">
+          <img src="/accountflow_logo.png" />
+        </a>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <a href="https://luado.no">
+          <img src="/luado_logo.png" />
         </a>
       </v-flex>
     </v-layout>
@@ -96,13 +106,13 @@
         <h2>Open source projects</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs6 first>
+      <v-flex xs6 px-3 first>
         <a href="https://www.npmjs.com/package/firestore-to-bigquery-export" style="margin-bottom: 5px">
           Firestore to BigQuery Export
         </a>
         <p>An automatic tool for copying and converting Cloud Firestore data to BigQuery.</p>
       </v-flex>
-      <v-flex xs6 first>
+      <v-flex xs6 px-3 first>
         <a href="https://marketflow.johannesberggren.com">MarketFlow</a>
         <p>Lets you see the stock market sentiment and volatility for any period of time.</p>
       </v-flex>
@@ -221,30 +231,35 @@
         <p>The Tim Ferriss Show</p>
       </v-flex>
     </v-layout>
-  </div>
+  </v-container>
 </template>
 
-<style scoped>
-  * {
-    text-align: center;
-  }
+<style scoped lang="stylus">
+  *
+    text-align center
 
-  .portrait {
-    border-radius: 100%;
-    width: 150px;
-    height: 150px;
-  }
+  .portrait
+    border-radius 100%
+    width 150px
+    height 150px
 
-  a {
-    font-family: sans-serif;
-    text-decoration: none;
-  }
+  a
+    font-family sans-serif
+    text-decoration none
 
-  .first a {
-    font-size: 18px;
-  }
+  .first a
+    font-size 18px
 
-  .second a {
-    font-size: 16px;
-  }
+  .second a
+    font-size 16px
+
+  .investment-logos
+    display flex
+
+  .investment-logos a
+    align-self center
+    margin auto
+
+  .investment-logos a img
+    max-width 200px
 </style>
