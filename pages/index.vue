@@ -27,20 +27,18 @@
     <!--    </v-layout>-->
 
     <v-layout justify-center my-3>
-      <v-flex xs12 sm8>
-        <p>
-          <i>"Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.<br />He has deep
-             technical expertise, and is currently one of Norways top full stack software engineers."
-          </i>
-        </p>
-        <p>
-          <i>"Having started his first company at age 12, Johannes has years of first hand business development
-             experience.
-             Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in
-             Northern Europe."
-          </i>
-        </p>
-      </v-flex>
+      <!--      <v-flex xs12 sm8>-->
+      <!--        <p>-->
+      <!--          <i>Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.</i>-->
+      <!--        </p>-->
+      <!--        <p>-->
+      <!--          <i>"Having started his first company at age 12, Johannes has years of first hand business development-->
+      <!--             experience.-->
+      <!--             Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in-->
+      <!--             Northern Europe."-->
+      <!--          </i>-->
+      <!--        </p>-->
+      <!--      </v-flex>-->
       <!--      <v-flex xs6>-->
       <!--        <h3>I help companies </h3>-->
       <!--      </v-flex>-->
@@ -159,6 +157,17 @@
       </v-flex>
       <v-divider />
       <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>July 2019</h4>
+        <h3>Johannes Berggren @ The Villa (Oslo, 2019/07/19)</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/655668140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+      <v-flex xs12 sm12 md6 mb-5 px-3>
         <h4>May 2019</h4>
         <h3>Johannes Berggren @ KOK (Oslo, 2019/05/04)</h3>
         <iframe
@@ -179,17 +188,6 @@
                 frameborder="no"
                 allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-      </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
-        <h4>January 2019</h4>
-        <h3>Progressive Mix</h3>
-        <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565553181&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
       </v-flex>
       <v-flex xs12 sm12 md6 mb-5 px-3>
         <h4>December 2018</h4>
