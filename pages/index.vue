@@ -157,6 +157,17 @@
       </v-flex>
       <v-divider />
       <v-flex xs12 sm12 md6 mb-5 px-3>
+        <h4>October 2019</h4>
+        <h3>Progressive Mix</h3>
+        <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/694772752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </v-flex>
+      <v-flex xs12 sm12 md6 mb-5 px-3>
         <h4>July 2019</h4>
         <h3>Johannes Berggren @ The Villa (Oslo, 2019/07/19)</h3>
         <iframe
@@ -210,11 +221,12 @@
       <v-divider />
       <v-flex xs6 mb-5 px-3>
         <h3>Books</h3>
-        <p>Influence: The Phychology of Persuasion</p>
+        <p>The Sovereign Individual</p>
         <p>Zero to One: Notes on Startups, or How to Build the Future</p>
-        <p>Surely You're Joking, Mr. Feynman!</p>
         <p>Angel: How to Invest in Technology Startups</p>
+        <p>Influence: The Phychology of Persuasion</p>
         <p>The Hard Thing About Hard Things</p>
+        <p>Surely You're Joking, Mr. Feynman!</p>
         <p>Sapiens: A Brief History of Humankind</p>
         <p>The Innovator's Dilemma</p>
         <p>Thinking, Fast and Slow</p>
@@ -222,11 +234,12 @@
       <v-flex xs6 mb-5 px-3>
         <h3>Podcasts</h3>
         <p>This Week in Startups</p>
-        <p>Maching Learning Guide</p>
+        <p>Machine Learning Guide</p>
+        <p>Data Sceptic</p>
         <p>The Kevin Rose Show</p>
-        <p>Pivot</p>
         <p>Recode Decode</p>
         <p>The Tim Ferriss Show</p>
+        <p>Pivot</p>
       </v-flex>
     </v-layout>
   </v-container>
