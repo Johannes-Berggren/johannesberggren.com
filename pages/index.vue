@@ -1,53 +1,59 @@
 <template>
   <v-container>
-    <v-layout column justify-center mt-3>
-      <v-flex xs12 sm8 md6>
-        <div class="text-xs-center">
-          <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
-        </div>
-        <h1>Johannes Berggren</h1>
+    <v-layout align-center justify-center mt-3>
+      <v-flex xs12 sm4 md6 style="text-align: right; margin-right: 20px">
+        <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
+      </v-flex>
+
+      <v-flex xs12 sm8 md6 class="intro">
+        <v-layout wrap justify-center mt-4 mb-5>
+          <v-flex xs12>
+            <h1>Johannes Berggren</h1>
+          </v-flex>
+
+          <v-flex xs12 mb-3>
+            <v-divider />
+          </v-flex>
+          <v-flex xs6 sm3>
+            <h3>
+              <a href="https://learnlink.no">Learnlink</a>
+            </h3>
+            <p>CTO, Co-founder</p>
+          </v-flex>
+          <v-flex xs6 sm3>
+            <h3>
+              <a href="https://seedstage.no">Seedstage</a>
+            </h3>
+            <p>Co-founder</p>
+          </v-flex>
+          <v-flex xs6 sm3>
+            <h3>KOK</h3>
+            <p>Co-founder</p>
+          </v-flex>
+          <v-flex xs12 my-1>
+            <v-divider />
+          </v-flex>
+        </v-layout>
       </v-flex>
     </v-layout>
 
-    <!--    <v-layout wrap justify-center mt-4 mb-5>-->
-    <!--      <v-flex xs12 mb-3>-->
-    <!--        <v-divider />-->
+    <!--    <v-layout justify-center my-3>-->
+    <!--      <v-flex xs12 sm8>-->
+    <!--        <p>-->
+    <!--          <i>Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.</i>-->
+    <!--        </p>-->
+    <!--        <p>-->
+    <!--          <i>"Having started his first company at age 12, Johannes has years of first hand business development-->
+    <!--             experience.-->
+    <!--             Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in-->
+    <!--             Northern Europe."-->
+    <!--          </i>-->
+    <!--        </p>-->
     <!--      </v-flex>-->
-    <!--      <v-flex xs6 sm3>-->
-    <!--        <h3>Learnlink</h3>-->
-    <!--        <p>CTO, Co-founder</p>-->
-    <!--      </v-flex>-->
-    <!--      <v-flex xs6 sm3>-->
-    <!--        <h3>KOK</h3>-->
-    <!--        <p>DJ, Co-founder</p>-->
-    <!--      </v-flex>-->
-    <!--      <v-flex xs12 my-1>-->
-    <!--        <v-divider />-->
+    <!--      <v-flex xs6>-->
+    <!--        <h3>I help companies </h3>-->
     <!--      </v-flex>-->
     <!--    </v-layout>-->
-
-    <v-layout justify-center my-3>
-      <!--      <v-flex xs12 sm8>-->
-      <!--        <p>-->
-      <!--          <i>Johannes is a Norwegian internet entrepreneur, software engineer and angel investor.</i>-->
-      <!--        </p>-->
-      <!--        <p>-->
-      <!--          <i>"Having started his first company at age 12, Johannes has years of first hand business development-->
-      <!--             experience.-->
-      <!--             Johannes currently serves as CTO at Learnlink, the first and fastest growing online tutoring platform in-->
-      <!--             Northern Europe."-->
-      <!--          </i>-->
-      <!--        </p>-->
-      <!--      </v-flex>-->
-      <!--      <v-flex xs6>-->
-      <!--        <h3>I help companies </h3>-->
-      <!--      </v-flex>-->
-    </v-layout>
-
-    <v-layout column justify-center my-2 mb-5>
-      <h3>Contact Johannes:</h3>
-      <h4>johannes@berggren.co</h4>
-    </v-layout>
 
     <v-layout wrap justify-center my-5 follow>
       <v-flex xs12 my-2>
@@ -82,17 +88,17 @@
         <h2>Investments</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs4 mt-3 mb-3 investment-logos>
-        <a href="https://sharebox.no">
-          <img src="/sharebox_logo.png" />
-        </a>
-      </v-flex>
-      <v-flex xs4 mt-3 mb-3 investment-logos>
+      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
         <a href="https://accountflow.no">
           <img src="/accountflow_logo.png" />
         </a>
       </v-flex>
-      <v-flex xs4 mt-3 mb-3 investment-logos>
+      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+        <a href="https://sharebox.no">
+          <img src="/sharebox_logo.png" />
+        </a>
+      </v-flex>
+      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
         <a href="https://luado.no">
           <img src="/luado_logo.png" />
         </a>
@@ -121,7 +127,7 @@
         <h2>What people are writing</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>In Norwegian</h4>
         <p>Digi.no:
           <a href="https://www.digi.no/artikler/mokk-lei-php-og-sql-na-lager-johannes-23-en-moderne-webapp-nesten-uten-a-kode/397937">
@@ -139,7 +145,7 @@
           </a>
         </p>
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>In Spanish</h4>
         <p>TicBeat:
           <a href="http://www.ticbeat.com/entrevistas/johannes-berggren-learnlink-queremos-acercar-las-tutorias-online-a-personas-con-dislexia-y-profesionales-tic/">
@@ -156,60 +162,78 @@
         <v-divider />
       </v-flex>
       <v-divider />
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
+        <h4>November 2019</h4>
+        <h3>Johannes Berggren @ KOK (Oslo, 2019/11/16)</h3>
+
+        <iframe
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/722355952&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
+      </v-flex>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>October 2019</h4>
         <h3>Progressive Mix</h3>
         <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/694772752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/694772752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>July 2019</h4>
         <h3>Johannes Berggren @ The Villa (Oslo, 2019/07/19)</h3>
         <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/655668140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/655668140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>May 2019</h4>
         <h3>Johannes Berggren @ KOK (Oslo, 2019/05/04)</h3>
         <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/621557532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/621557532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>March 2019</h4>
         <h3>Progressive Mix</h3>
         <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
       </v-flex>
-      <v-flex xs12 sm12 md6 mb-5 px-3>
+      <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>December 2018</h4>
         <h3>Progressive Mix</h3>
         <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          width="100%"
+          height="300"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
       </v-flex>
     </v-layout>
 
@@ -221,11 +245,32 @@
       <v-divider />
       <v-flex xs6 mb-5 px-3>
         <h3>Books</h3>
-        <p>The Sovereign Individual</p>
-        <p>Zero to One: Notes on Startups, or How to Build the Future</p>
-        <p>Angel: How to Invest in Technology Startups</p>
-        <p>Influence: The Phychology of Persuasion</p>
-        <p>The Hard Thing About Hard Things</p>
+        <p>
+          <a href="https://www.goodreads.com/book/show/82256.The_Sovereign_Individual">
+            The Sovereign Individual
+          </a>
+        </p>
+        <p>
+          <a href="https://www.goodreads.com/book/show/18050143-zero-to-one?from_search=true&qid=nm30TkPUO1&rank=1">
+            Zero to One: Notes on Startups, or How to Build the Future
+          </a>
+        </p>
+        <p>
+          <a href="https://www.goodreads.com/book/show/32600757-angel?ac=1&from_search=true&qid=Q4G5QmotcW&rank=1">
+            Angel:
+            How to Invest in Technology Startups
+          </a>
+        </p>
+        <p>
+          <a href="https://www.goodreads.com/book/show/28815.Influence?ac=1&from_search=true&qid=r5e1AgOsoL&rank=3">
+            Influence: The Phychology of Persuasion
+          </a>
+        </p>
+        <p>
+          <a href="https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things?ac=1&from_search=true&qid=hCBFXdOXMO&rank=1">
+            The Hard Thing About Hard Things
+          </a>
+        </p>
         <p>Surely You're Joking, Mr. Feynman!</p>
         <p>Sapiens: A Brief History of Humankind</p>
         <p>The Innovator's Dilemma</p>
@@ -233,13 +278,41 @@
       </v-flex>
       <v-flex xs6 mb-5 px-3>
         <h3>Podcasts</h3>
-        <p>This Week in Startups</p>
-        <p>Machine Learning Guide</p>
-        <p>Data Sceptic</p>
-        <p>The Kevin Rose Show</p>
-        <p>Recode Decode</p>
-        <p>The Tim Ferriss Show</p>
-        <p>Pivot</p>
+        <p>
+          <a href="https://thisweekinstartups.com/">
+            This Week in Startups
+          </a>
+        </p>
+        <p>
+          <a href="http://ocdevel.com/mlg">
+            Machine Learning Guide
+          </a>
+        </p>
+        <p>
+          <a href="https://www.kevinrose.com/">
+            The Kevin Rose Show
+          </a>
+        </p>
+        <p>
+          <a href="https://tim.blog/podcast/">
+            The Tim Ferriss Show
+          </a>
+        </p>
+        <p>
+          <a href="https://podcasts.voxmedia.com/show/recode-decode">
+            Recode Decode
+          </a>
+        </p>
+        <p>
+          <a href="https://podcasts.voxmedia.com/show/pivot">
+            Pivot
+          </a>
+        </p>
+        <p>
+          <a href="https://dataskeptic.com/">
+            Data Sceptic
+          </a>
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
@@ -251,8 +324,8 @@
 
   .portrait
     border-radius 100%
-    width 150px
-    height 150px
+    width 175px
+    height 175px
 
   a
     font-family sans-serif
