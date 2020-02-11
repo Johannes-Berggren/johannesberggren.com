@@ -1,7 +1,7 @@
 {
   "name": "johannesberggren",
   "version": "1.0.0",
-  "description": "Johannes Berggren is a Norwegian entrepreneur and software engineer.",
+  "description": "Johannes Berggren is a Norwegian entrepreneur, angel investor and software engineer.",
   "author": "Johannes Berggren <jb@learnlink.no>",
   "private": true,
   "scripts": {
@@ -11,16 +11,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.10.2",
-    "vuetify": "^1.5.19"
+    "nuxt": "^2.11.0",
+    "vuetify": "^1.5.22"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-loader": "^3.0.3",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",

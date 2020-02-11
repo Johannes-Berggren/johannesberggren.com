@@ -99,6 +99,11 @@
         </a>
       </v-flex>
       <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+        <a href="https://www.visualyst.co">
+          <img style="max-height: 120px" src="/visualyst_logo.png" />
+        </a>
+      </v-flex>
+      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
         <a href="https://luado.no">
           <img src="/luado_logo.png" />
         </a>
@@ -129,6 +134,11 @@
       </v-flex>
       <v-flex xs12 sm6 md6 mb-5 px-3>
         <h4>In Norwegian</h4>
+        <p>Startup Norway @ Medium:
+          <a href="https://medium.com/startup-norway/investorkollektivet-seedstage-vil-bygge-ressursmilj%C3%B8-for-investeringer-6d750fcf5b82">
+            Investorkollektivet Seedstage vil bygge ressursmiljø for investeringer
+          </a>
+        </p>
         <p>Digi.no:
           <a href="https://www.digi.no/artikler/mokk-lei-php-og-sql-na-lager-johannes-23-en-moderne-webapp-nesten-uten-a-kode/397937">
             Møkk lei PHP og SQL: Nå lager Johannes (23) en moderne webapp nesten uten å kode
