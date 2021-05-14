@@ -1,37 +1,37 @@
 <template>
   <v-container>
-    <v-layout align-center justify-center mt-3>
-      <v-flex xs12 sm4 md6 style="text-align: right; margin-right: 20px">
-        <img src="/Johannes-Berggren.jpeg" alt="Johannes Berggren portrait" class="mb-2 portrait" />
+    <v-layout
+      align-center
+      justify-center
+      mt-3
+    >
+      <v-flex
+        xs12
+        sm4
+        md6
+        style="text-align: right; margin-right: 20px"
+      >
+        <img
+          src="/Johannes-Berggren.jpeg"
+          alt="Johannes Berggren portrait"
+          class="mb-2 portrait"
+        />
       </v-flex>
 
-      <v-flex xs12 sm8 md6 class="intro">
-        <v-layout wrap justify-center mt-4 mb-5>
+      <v-flex
+        xs12
+        sm8
+        md6
+        class="intro"
+      >
+        <v-layout
+          wrap
+          justify-center
+          mt-4
+          mb-5
+        >
           <v-flex xs12>
             <h1>Johannes Berggren</h1>
-          </v-flex>
-
-          <v-flex xs12 mb-3>
-            <v-divider />
-          </v-flex>
-          <v-flex xs6 sm3>
-            <h3>
-              <a href="https://learnlink.no">Learnlink</a>
-            </h3>
-            <p>CTO, Co-founder</p>
-          </v-flex>
-          <v-flex xs6 sm3>
-            <h3>
-              <a href="https://seedstage.no">Seedstage</a>
-            </h3>
-            <p>Co-founder</p>
-          </v-flex>
-          <v-flex xs6 sm3>
-            <h3>KOK</h3>
-            <p>Co-founder</p>
-          </v-flex>
-          <v-flex xs12 my-1>
-            <v-divider />
           </v-flex>
         </v-layout>
       </v-flex>
@@ -55,85 +55,159 @@
     <!--      </v-flex>-->
     <!--    </v-layout>-->
 
-    <v-layout wrap justify-center my-5 follow>
-      <v-flex xs12 my-2>
-        <h2>Connect with me</h2>
+    <v-layout
+      wrap
+      justify-center
+      my-5
+      follow
+    >
+      <v-flex
+        xs12
+        my-2
+      >
+        <h2>Connect</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs4 sm4 first>
+      <v-flex
+        xs4
+        sm4
+        first
+      >
         <a href="https://www.linkedin.com/in/johannesberggren/">LinkedIn</a>
       </v-flex>
-      <v-flex xs4 sm4 first>
+      <v-flex
+        xs4
+        sm4
+        first
+      >
         <a href="https://github.com/Johannes-Berggren">GitHub</a>
       </v-flex>
-      <v-flex xs4 sm4 first>
+      <v-flex
+        xs4
+        sm4
+        first
+      >
         <a href="https://soundcloud.com/johannes-berggren">Soundcloud</a>
       </v-flex>
-      <v-flex xs3 sm3 mt-3 mb-3 second>
+      <v-flex
+        xs3
+        sm3
+        mt-3
+        mb-3
+        second
+      >
         <a href="https://www.goodreads.com/user/show/53628610-johannes-berggren">Goodreads</a>
       </v-flex>
-      <v-flex xs3 sm3 mt-3 mb-3 second>
+      <v-flex
+        xs3
+        sm3
+        mt-3
+        mb-3
+        second
+      >
         <a href="https://www.crunchbase.com/person/johannes-berggren">Crunchbase</a>
       </v-flex>
-      <v-flex xs3 sm3 mt-3 mb-3 second>
+      <v-flex
+        xs3
+        sm3
+        mt-3
+        mb-3
+        second
+      >
         <a href="https://www.shareville.no/medlemmer/j-b/wall">Shareville</a>
-      </v-flex>
-      <v-flex xs3 sm3 mt-3 mb-3 second>
-        <a href="https://learnlink.no/profil/bPVgZ3f1pjhrN7esErZ4Q4gX5wy1/">Learnlink</a>
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center my-5 follow>
-      <v-flex xs12 my-2>
+    <v-layout
+      wrap
+      justify-center
+      my-5
+      follow
+    >
+      <v-flex
+        xs12
+        my-2
+      >
         <h2>Investments</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+      <v-flex
+        xs12
+        sm6
+        md4
+        mt-3
+        mb-3
+        investment-logos
+      >
         <a href="https://accountflow.no">
           <img src="/accountflow_logo.png" />
         </a>
       </v-flex>
-      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+      <v-flex
+        xs12
+        sm6
+        md4
+        mt-3
+        mb-3
+        investment-logos
+      >
         <a href="https://sharebox.no">
           <img src="/sharebox_logo.png" />
         </a>
       </v-flex>
-      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+      <v-flex
+        xs12
+        sm6
+        md4
+        mt-3
+        mb-3
+        investment-logos
+      >
         <a href="https://www.visualyst.co">
-          <img style="max-height: 120px" src="/visualyst_logo.png" />
+          <img
+            style="max-height: 120px"
+            src="/visualyst_logo.png"
+          />
         </a>
       </v-flex>
-      <v-flex xs12 sm6 md4 mt-3 mb-3 investment-logos>
+      <v-flex
+        xs12
+        sm6
+        md4
+        mt-3
+        mb-3
+        investment-logos
+      >
         <a href="https://luado.no">
           <img src="/luado_logo.png" />
         </a>
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center my-5 follow>
-      <v-flex xs12 my-2>
-        <h2>Open source projects</h2>
-        <v-divider />
-      </v-flex>
-      <v-flex xs6 px-3 first>
-        <a href="https://www.npmjs.com/package/firestore-to-bigquery-export" style="margin-bottom: 5px">
-          Firestore to BigQuery Export
-        </a>
-        <p>An automatic tool for copying and converting Cloud Firestore data to BigQuery.</p>
-      </v-flex>
-      <v-flex xs6 px-3 first>
-        <a href="https://marketflow.johannesberggren.com">MarketFlow</a>
-        <p>Lets you see the stock market sentiment and volatility for any period of time.</p>
-      </v-flex>
-    </v-layout>
-
-    <v-layout wrap justify-center my-5>
-      <v-flex xs12 my-2>
+    <v-layout
+      wrap
+      justify-center
+      my-5
+    >
+      <v-flex
+        xs12
+        my-2
+      >
         <h2>What people are writing</h2>
         <v-divider />
       </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>In Norwegian</h4>
+      <v-flex
+        xs12
+        sm6
+        md6
+        mb-5
+        px-3
+      >
+        <p>Shifter:
+          <a href="https://shifter.no/nyheter/johannes-solgte-leiligheten-og-tjente-millioner-pa-bitcoin-na-investerer-han-gevinsten-i-startups/210946">
+            Johannes solgte leiligheten og tjente millioner på Bitcoin: Nå investerer han gevinsten i startups
+          </a>
+        </p>
         <p>Startup Norway @ Medium:
           <a href="https://medium.com/startup-norway/investorkollektivet-seedstage-vil-bygge-ressursmilj%C3%B8-for-investeringer-6d750fcf5b82">
             Investorkollektivet Seedstage vil bygge ressursmiljø for investeringer
@@ -144,6 +218,14 @@
             Møkk lei PHP og SQL: Nå lager Johannes (23) en moderne webapp nesten uten å kode
           </a>
         </p>
+      </v-flex>
+      <v-flex
+        xs12
+        sm6
+        md6
+        mb-5
+        px-3
+      >
         <p>Dagens Næringsliv:
           <a href="https://www.dn.no/forskning/grundervirksomhet/grunder/taper-pa-a-droppe-studier-for-grunderdrommen/1-1-5711026">
             Taper på å droppe studier for gründerdrømmen
@@ -154,9 +236,6 @@
             Angst-gründerens råd: –⁠ Ikke ta imot råd på vors
           </a>
         </p>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>In Spanish</h4>
         <p>TicBeat:
           <a href="http://www.ticbeat.com/entrevistas/johannes-berggren-learnlink-queremos-acercar-las-tutorias-online-a-personas-con-dislexia-y-profesionales-tic/">
             Johannes Berggren (LearnLink): “Queremos acercar las tutorías online a personas con dislexia y profesionales
@@ -166,88 +245,7 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap justify-center>
-      <v-flex xs12 my-2>
-        <h2>I'm also DJing</h2>
-        <v-divider />
-      </v-flex>
-      <v-divider />
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>November 2019</h4>
-        <h3>Johannes Berggren @ KOK (Oslo, 2019/11/16)</h3>
-
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/722355952&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>October 2019</h4>
-        <h3>Progressive Mix</h3>
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/694772752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>July 2019</h4>
-        <h3>Johannes Berggren @ The Villa (Oslo, 2019/07/19)</h3>
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/655668140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>May 2019</h4>
-        <h3>Johannes Berggren @ KOK (Oslo, 2019/05/04)</h3>
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/621557532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>March 2019</h4>
-        <h3>Progressive Mix</h3>
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584966655&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-      <v-flex xs12 sm6 md6 mb-5 px-3>
-        <h4>December 2018</h4>
-        <h3>Progressive Mix</h3>
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551018304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-      </v-flex>
-    </v-layout>
-
-    <v-layout wrap justify-center>
+    <!-- <v-layout wrap justify-center>
       <v-flex xs12 my-2>
         <h2>Favorites</h2>
         <v-divider />
@@ -324,36 +322,44 @@
           </a>
         </p>
       </v-flex>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
 <style scoped lang="stylus">
-  *
-    text-align center
+* {
+  text-align: center;
+}
 
-  .portrait
-    border-radius 100%
-    width 175px
-    height 175px
+.portrait {
+  border-radius: 100%;
+  width: 175px;
+  height: 175px;
+}
 
-  a
-    font-family sans-serif
-    text-decoration none
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
 
-  .first a
-    font-size 18px
+.first a {
+  font-size: 18px;
+}
 
-  .second a
-    font-size 16px
+.second a {
+  font-size: 16px;
+}
 
-  .investment-logos
-    display flex
+.investment-logos {
+  display: flex;
+}
 
-  .investment-logos a
-    align-self center
-    margin auto
+.investment-logos a {
+  align-self: center;
+  margin: auto;
+}
 
-  .investment-logos a img
-    max-width 200px
+.investment-logos a img {
+  max-width: 200px;
+}
 </style>
