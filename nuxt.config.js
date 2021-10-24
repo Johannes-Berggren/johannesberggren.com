@@ -1,44 +1,70 @@
+import colors from 'vuetify/es5/util/colors'
+
 export default {
-  /*
-  ** Headers of the page
-  */
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Johannes Berggren',
+    titleTemplate: '%s - johannesberggren.com',
+    title: 'johannesberggren.com',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Johannes is a Norwegian internet entrepreneur, software engineer and angel investor. He has deep technical expertise, and is currently one of Norways top full stack software engineers.' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/style/app.styl'
   ],
-  /*
-  ** Customize the progress bar color
-  */
-  loading: { color: '#000000' },
-  /*
-  ** Build configuration
-  */
-  build: {
-    extractCSS: true,
-    /*
-    ** Run ESLint on save
-    */
-    extend (config, {isDev}) {
-      if (isDev && process.client) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  plugins: [
+  ],
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+    // https://go.nuxtjs.dev/typescript
+    '@nuxt/typescript-build',
+    // https://go.nuxtjs.dev/vuetify
+    '@nuxtjs/vuetify'
+  ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+  ],
+
+  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  vuetify: {
+    customVariables: ['~/assets/variables.scss'],
+    theme: {
+      dark: false,
+      themes: {
+        dark: {
+          primary: colors.blue.darken2,
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3
+        }
       }
     }
+  },
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
   }
 }

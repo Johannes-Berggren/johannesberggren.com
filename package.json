@@ -1,30 +1,29 @@
 {
-  "name": "johannesberggren",
+  "name": "johannesberggren.com",
   "version": "1.0.0",
-  "description": "Johannes Berggren is a Norwegian entrepreneur, angel investor and software engineer.",
-  "author": "Johannes Berggren <jb@learnlink.no>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
-    "nuxt": "^2.15.6",
-    "vuetify": "^1.5.24"
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "vuetify": "^2.5.5"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-loader": "^3.0.4",
-    "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.23.0",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^4.1.0",
-    "stylus": "^0.54.8",
-    "stylus-loader": "^3.0.2"
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1"
   }
 }
