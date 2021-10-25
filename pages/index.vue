@@ -19,38 +19,15 @@
       <v-col>
         <h1>Johannes Berggren</h1>
 
-        <v-divider class="my-2" />
-
-        <a
-          class="mr-8"
-          href="https://www.linkedin.com/in/johannesberggren/"
-          target="blank"
-        >LinkedIn</a>
-        <a
-          class="mr-8"
-          href="https://github.com/Johannes-Berggren"
-          target="blank"
-        >GitHub</a>
-        <a
-          class="mr-8"
-          href="https://soundcloud.com/johannes-berggren"
-          target="blank"
-        >Soundcloud</a>
-        <a
-          class="mr-8"
-          href="https://www.goodreads.com/user/show/53628610-johannes-berggren"
-          target="blank"
-        >Goodreads</a>
-        <a
-          class="mr-8"
-          href="https://www.crunchbase.com/person/johannes-berggren"
-          target="blank"
-        >Crunchbase</a>
-        <a
-          class="mr-8"
-          href="https://www.shareville.no/medlemmer/j-b/wall"
-          target="blank"
-        >Shareville</a>
+        <h4>
+          <a
+            href="https://learnlink.no"
+            target="blank"
+          >learnlink.no</a> | <a
+            href="https://seedstage.no"
+            target="blank"
+          >seedstage.no</a>
+        </h4>
       </v-col>
     </v-row>
 
@@ -223,7 +200,7 @@
                 target="blank"
               >
                 <v-img
-                  src="/livly_logo.svg"
+                  src="/livly_logo-01.png"
                   height="50"
                   width="95"
                   class="mx-auto"
