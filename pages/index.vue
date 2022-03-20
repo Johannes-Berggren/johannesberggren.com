@@ -44,6 +44,15 @@
           <v-col>
             <p>
               <a
+                href="https://shifter.no/nyheter/teknologi-sjefer-gar-sammen-om-a-investere-i-startups/224999"
+                target="blank"
+              >
+                Teknologi-sjefer går sammen om å investere i startups
+              </a>
+              <i style="color: grey; text-align: right">Shifter</i>
+            </p>
+            <p>
+              <a
                 href="https://shifter.no/nyheter/johannes-solgte-leiligheten-og-tjente-millioner-pa-bitcoin-na-investerer-han-gevinsten-i-startups/210946"
                 target="blank"
               >
@@ -116,17 +125,19 @@
             sm="4"
             md="6"
           >
-            <v-card
-              class="pa-4"
-              height="80"
+            <v-row
+              align="center"
+              justify="center"
             >
-              <a
-                href="https://accountflow.no"
-                target="blank"
-              >
-                <v-img src="/accountflow_logo.png" />
-              </a>
-            </v-card>
+              <v-col>
+                <a
+                  href="https://accountflow.no"
+                  target="blank"
+                >
+                  <v-img src="/accountflow_logo.png" />
+                </a>
+              </v-col>
+            </v-row>
           </v-col>
 
           <v-col
@@ -134,17 +145,19 @@
             sm="4"
             md="6"
           >
-            <v-card
-              class="pa-4"
-              height="80"
+            <v-row
+              align="center"
+              justify="center"
             >
-              <a
-                href="https://sharebox.no"
-                target="blank"
-              >
-                <v-img src="/sharebox_logo.png" />
-              </a>
-            </v-card>
+              <v-col>
+                <a
+                  href="https://sharebox.no"
+                  target="blank"
+                >
+                  <v-img src="/sharebox_logo.png" />
+                </a>
+              </v-col>
+            </v-row>
           </v-col>
 
           <v-col
@@ -152,17 +165,19 @@
             sm="4"
             md="6"
           >
-            <v-card
-              class="pa-4"
-              height="80"
+            <v-row
+              align="center"
+              justify="center"
             >
-              <a
-                href="https://www.visualyst.co"
-                target="blank"
-              >
-                <v-img src="/Visualyst_Logo_Blue_Landscape.png" />
-              </a>
-            </v-card>
+              <v-col>
+                <a
+                  href="https://www.visualyst.co"
+                  target="blank"
+                >
+                  <v-img src="/Visualyst_Logo_Blue_Landscape.png" />
+                </a>
+              </v-col>
+            </v-row>
           </v-col>
 
           <v-col
@@ -170,20 +185,19 @@
             sm="4"
             md="6"
           >
-            <v-card
-              class="pa-4"
-              height="80"
+            <v-row
+              align="center"
+              justify="center"
             >
-              <a
-                href="https://luado.no"
-                target="blank"
-              >
-                <v-img
-                  src="/luado_logo.png"
-                  height="50"
-                />
-              </a>
-            </v-card>
+              <v-col>
+                <a
+                  href="https://luado.no"
+                  target="blank"
+                >
+                  <v-img src="/luado_logo.png" />
+                </a>
+              </v-col>
+            </v-row>
           </v-col>
 
           <v-col
@@ -191,22 +205,49 @@
             sm="4"
             md="6"
           >
-            <v-card
-              class="pa-4"
-              height="80"
+            <v-row
+              align="center"
+              justify="center"
             >
-              <a
-                href="https://www.getlivly.com/"
-                target="blank"
-              >
-                <v-img
-                  src="/livly_logo-01.png"
-                  height="50"
-                  width="95"
-                  class="mx-auto"
-                />
-              </a>
-            </v-card>
+              <v-col>
+                <a
+                  href="https://www.getlivly.com/"
+                  target="blank"
+                >
+                  <v-img
+                    src="/livly_logo-01.png"
+                    height="50"
+                    width="95"
+                    class="mx-auto"
+                  />
+                </a>
+              </v-col>
+            </v-row>
+          </v-col>
+
+          <v-col
+            cols="6"
+            sm="4"
+            md="6"
+          >
+            <v-row
+              align="center"
+              justify="center"
+            >
+              <v-col>
+                <a
+                  href="https://www.annabarbarafilms.com/"
+                  target="blank"
+                >
+                  <v-img
+                    src="/anna_barbara_logo.png"
+                    max-width="100%"
+                    height="70"
+                    class="mx-auto"
+                  />
+                </a>
+              </v-col>
+            </v-row>
           </v-col>
         </v-row>
       </v-col>
