@@ -10,7 +10,7 @@
         sm="2"
       >
         <v-img
-          src="/Johannes-Berggren.jpeg"
+          src="/Johannes-Berggren.jpg"
           alt="Johannes Berggren portrait"
           style="border-radius: 100%"
         />
@@ -19,15 +19,28 @@
       <v-col>
         <h1>Johannes Berggren</h1>
 
-        <h4>
+        <h4 class="my-2">
           <a
             href="https://learnlink.no"
             target="blank"
           >learnlink.no</a> | <a
             href="https://seedstage.no"
             target="blank"
-          >seedstage.no</a>
+          >seedstage.no</a> | <a
+            href="https://ctoroundtable.no"
+            target="blank"
+          >CTORoundtable.no</a>
         </h4>
+
+        <h5>
+          <a
+            href="https://www.linkedin.com/in/johannesberggren/"
+            target="blank"
+          >LinkedIn</a> | <a
+            href="https://soundcloud.com/johannes-berggren"
+            target="blank"
+          >SoundCloud</a>
+        </h5>
       </v-col>
     </v-row>
 
@@ -102,7 +115,8 @@
                 href="http://www.ticbeat.com/entrevistas/johannes-berggren-learnlink-queremos-acercar-las-tutorias-online-a-personas-con-dislexia-y-profesionales-tic/"
                 target="blank"
               >
-                Johannes Berggren (LearnLink): “Queremos acercar las tutorías online a personas con dislexia y profesionales
+                Johannes Berggren (LearnLink): “Queremos acercar las tutorías online a personas con dislexia y
+                profesionales
                 TIC”
               </a>
               <i style="color: grey; text-align: right">TicBeat</i>
