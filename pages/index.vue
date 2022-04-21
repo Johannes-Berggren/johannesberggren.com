@@ -34,9 +34,15 @@
 
         <h5>
           <a
+            href="https://twitter.com/JohsBerggren"
+            target="blank"
+          >Twitter</a> |<a
             href="https://www.linkedin.com/in/johannesberggren/"
             target="blank"
           >LinkedIn</a> | <a
+            href="https://github.com/Johannes-Berggren"
+            target="blank"
+          >GitHub</a> | <a
             href="https://soundcloud.com/johannes-berggren"
             target="blank"
           >SoundCloud</a>
